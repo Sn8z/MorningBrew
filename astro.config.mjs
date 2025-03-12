@@ -5,8 +5,7 @@ import react from "@astrojs/react";
 
 export default defineConfig({
   integrations: [react()],
-  output: "static",
   site: "https://sn8z.github.io",
-  base: "morningbrew",
+  base: "/morningbrew",
   outDir: "./docs",
 });
