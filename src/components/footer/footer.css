@@ -1,0 +1,21 @@
+footer {
+  height: 40px;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.5));
+}
+
+footer a {
+  color: rgb(167, 201, 87);
+}
+
+footer a:visited {
+  color: rgb(167, 201, 87);
+}
+
+footer a:hover {
+  color: rgb(56, 102, 65);
+}

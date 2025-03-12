@@ -1,0 +1,42 @@
+.styledBtn {
+  border: none;
+  min-width: 48px;
+  height: 48px;
+  background-color: rgb(167, 201, 87);
+  border-radius: 50%;
+  color: rgb(242, 232, 207);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.largeBtn {
+  min-width: 96px;
+  height: 96px;
+}
+
+.styledBtn:disabled,
+.styledBtn[disabled] {
+  background-color: rgb(165, 165, 165);
+  color: rgb(242, 232, 207);
+  cursor: not-allowed;
+}
+
+.styledBtn:hover:not([disabled]),
+.styledBtn:active:not([disabled]) {
+  background-color: rgb(242, 232, 207);
+  color: rgb(56, 102, 65);
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  transform: scale3d(1.1, 1.1, 1.1);
+}
+
+.resetBtn {
+  border: none;
+  width: 48px;
+  height: 48px;
+  background-color: rgb(32, 138, 199);
+  border-radius: 50%;
+  color: rgb(242, 232, 207);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}

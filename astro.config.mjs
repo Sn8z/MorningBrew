@@ -1,5 +1,12 @@
 // @ts-check
-import { defineConfig } from 'astro/config';
+import { defineConfig } from "astro/config";
 
-// https://astro.build/config
-export default defineConfig({});
+import react from "@astrojs/react";
+
+export default defineConfig({
+  integrations: [react()],
+  output: "static",
+  site: "https://sn8z.github.io",
+  base: "morningbrew",
+  outDir: "./docs",
+});

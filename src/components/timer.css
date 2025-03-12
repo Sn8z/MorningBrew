@@ -1,0 +1,57 @@
+.timer-box {
+  background-color: rgb(56, 102, 65);
+  display: flex;
+  flex: 0 0 auto;
+  width: clamp(640px, 50vw, 800px);
+  padding: 32px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+}
+
+.controls {
+  display: flex;
+  flex-direction: row;
+  flex: 1 1 auto;
+  width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 20px 0;
+}
+
+.steps {
+  display: flex;
+  flex-direction: row;
+  flex: 1 1 auto;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.step {
+  height: 36px;
+  width: 36px;
+  margin: 2px;
+  cursor: pointer;
+  border-radius: 50%;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+  animation: all infinite 1s;
+}
+
+.step-done {
+  background: linear-gradient(rgb(200, 235, 118), rgb(167, 201, 87));
+}
+
+.step-not-done {
+  background: linear-gradient(rgb(218, 91, 93), rgb(188, 71, 73));
+}
+
+@media (max-width: 640px) {
+  .timer-box {
+    width: 96vw;
+  }
+}
