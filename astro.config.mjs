@@ -8,6 +8,5 @@ export default defineConfig({
   output: "static",
   site: "https://sn8z.github.io",
   base: "morningbrew",
-	publicDir: "./public",
   outDir: "./docs",
 });
