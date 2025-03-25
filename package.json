@@ -1,5 +1,6 @@
 {
   "name": "morningbrew",
+	"homepage": "/morningbrew",
   "private": true,
   "type": "module",
   "scripts": {
