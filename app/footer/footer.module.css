@@ -1,0 +1,9 @@
+.footer {
+  background-color: var(--color-bg-high);
+  padding: var(--spacing-md);
+  box-shadow: var(--shadow);
+}
+
+.links > a {
+  margin-left: var(--spacing-md);
+}

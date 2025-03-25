@@ -1,0 +1,7 @@
+.about {
+  background-color: var(--color-bg);
+  padding: var(--spacing-md);
+	margin: var(--spacing-md);
+  border-radius: var(--border-radius-md);
+  box-shadow: var(--shadow);
+}
