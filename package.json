@@ -1,6 +1,6 @@
 {
   "name": "morningbrew",
-	"homepage": "/morningbrew",
+  "homepage": "https://sn8z.github.io/MorningBrew",
   "private": true,
   "type": "module",
   "scripts": {
