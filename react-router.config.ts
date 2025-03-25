@@ -1,6 +1,7 @@
 import type { Config } from "@react-router/dev/config";
 
 export default {
-  basename: "/morningbrew/",
+  basename: "/MorningBrew/",
   ssr: false,
+  prerender: ["/"],
 } satisfies Config;
