@@ -4,4 +4,5 @@
 	margin: var(--spacing-md);
   border-radius: var(--border-radius-md);
   box-shadow: var(--shadow);
+	color: black;
 }

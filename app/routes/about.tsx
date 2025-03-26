@@ -4,7 +4,7 @@ import { Link } from "react-router";
 import styles from "./about.module.css";
 
 export function meta({}: Route.MetaArgs) {
-  return [{ title: "About" }, { name: "description", content: "About page" }];
+  return [{ title: "About Robin" }, { name: "description", content: "About page" }];
 }
 
 export default function About() {

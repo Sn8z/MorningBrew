@@ -1,4 +1,5 @@
 import type { Route } from "./+types/home";
+import styles from "./home.module.css";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -18,6 +19,22 @@ export default function Home() {
       <label htmlFor='toggle'>Toggle</label>
       <label htmlFor='toggle'>Toggle</label>
       <label htmlFor='toggle'>Toggle</label>
+      <div className={styles.box}>
+        <div className={styles.item}></div>
+        <div className={styles.item}></div>
+        <div className={styles.item}></div>
+        <div className={styles.item}></div>
+        <div className={styles.item}></div>
+        <div className={styles.item}></div>
+      </div>
+      <div className={styles.box}>
+        <div className={styles.item}></div>
+        <div className={styles.item}></div>
+        <div className={styles.item}></div>
+      </div>
+      <div className={styles.box}>
+        <div className={styles.item}></div>
+      </div>
     </>
   );
 }
