@@ -1,4 +1,4 @@
-import { Link } from "react-router";
+import { Link, NavLink } from "react-router";
 import styles from "./header.module.css";
 import { Logo } from "~/Logo/logo";
 
@@ -10,11 +10,17 @@ export const Header = () => {
           <Logo size={32} />
         </Link>
       </div>
+
       <div className={styles.links}>
         {pages.map((page) => (
-          <Link to={page.href} key={page.title}>
+          <NavLink
+            to={page.href}
+            key={page.title}
+            className={({ isActive, isPending }) =>
+              isPending ? "pending" : isActive ? "active" : ""
+            }>
             {page.title}
-          </Link>
+          </NavLink>
         ))}
       </div>
     </header>

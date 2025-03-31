@@ -15,3 +15,12 @@
 .links > a:hover {
   color: var(--color-secondary);
 }
+
+.links > a.active {
+  color: red;
+}
+
+.links > a.pending {
+  color: var(--color-secondary);
+  pointer-events: none;
+}
